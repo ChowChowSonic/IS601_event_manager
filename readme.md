@@ -1,3 +1,17 @@
+# Executive Summary 
+In this assignment I learned about the Python SQLAlchemy Lbrary and how to use it. I also learned how pytest works with network-related applications. Through the examples provided to me with this project, I learned how schemas work and how they're represented with the SQLAlchemy library. I also learned about Pydantic and the importance of that module in the development of web applications & webservers. I was required to use the collaborative processes that Github provides (branches, Pull Requests, Issues, etc.) to complete this assignment. I was well aware of these processes and how they worked already, so this was no issue for me. 
+
+One of the challenges I faced was trying to figure out what the edge cases were for user profiles. I wasn't originally sure what the issue was, as everything appeared to work just fine. It took me a minute to realize that the user profile URLs did not use a URL pattern by default, and I needed to pass them manually. Another challenge I faced was fixing the tests provided to ensure that they reach the 90% coverage threshold. I had never written tests for a webserver before, so I was unsure of what to do at first. However, I did eventually figure out how the testing procedures worked, and managed to write enough tests (& fix existing ones) until they provided enough coverage.
+
+# Links to issues
+https://github.com/ChowChowSonic/IS601_event_manager/issues/11
+https://github.com/ChowChowSonic/IS601_event_manager/issues/7
+https://github.com/ChowChowSonic/IS601_event_manager/issues/6
+https://github.com/ChowChowSonic/IS601_event_manager/issues/5
+https://github.com/ChowChowSonic/IS601_event_manager/issues/4
+https://github.com/ChowChowSonic/IS601_event_manager/issues/3
+https://github.com/ChowChowSonic/IS601_event_manager/issues/2
+https://github.com/ChowChowSonic/IS601_event_manager/issues/1
 # Event Manager Company: Software QA Analyst/Developer Onboarding Assignment
 
 Welcome to the Event Manager Company! As a newly hired Software QA Analyst/Developer and a student in software engineering, you are embarking on an exciting journey to contribute to our project aimed at developing a secure, robust REST API that supports JWT token-based OAuth2 authentication. This API serves as the backbone of our user management system and will eventually expand to include features for event management and registration.
